@@ -1,0 +1,25 @@
+body{
+    background-color: #c3dedf;
+}
+img{
+    height: 200px;
+}
+hr{
+    /*background-color: white;
+    you can delete above line specifing backgroung color in this case since our line has no height*/
+    border-style: none;
+    /*You can apply boder in general then change only for top part*/
+    border-top-style: dotted;
+    /*alternative method here boder is applied top right bottom left or clockwise manner
+    border-style: dotted none none none;
+    */
+    border-color: gray;
+    border-width: 5px;
+    width:5%;
+}
+h1{
+    color: blue;
+}
+h3{
+    color:blue;
+}
